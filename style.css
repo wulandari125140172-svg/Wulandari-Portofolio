@@ -1,0 +1,113 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5c6d0;
+    color: white;
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+
+    background-color: #f1a9b8;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* HOME */
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 60px 80px;
+    background-color: #f5c6d0;
+}
+
+.home-kiri{
+    width: 50%;
+}
+
+.home-kiri h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home-kiri p{
+    width: 80%;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+.home-kanan img{
+    width: 250px;
+    height: auto;
+}
+
+/* ABOUT */
+.about{
+    text-align: center;
+    background-color: #ee8ea3;
+
+    padding: 70px 100px;
+}
+
+.about h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.about p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.sosial a{
+    text-decoration: none;
+    background-color: white;
+    color: #ee8ea3;
+
+    padding: 10px 20px;
+    margin: 10px;
+
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #f1a9b8;
+}
